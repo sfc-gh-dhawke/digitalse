@@ -353,10 +353,6 @@ The agent uses standardized performance benchmarks:
 - `create_digitalse_agent.sql`: Agent creation and configuration (2-3 min execution)
 - `README.md`: This documentation file
 
-## License
-
-This project leverages Snowflake's built-in capabilities and requires a valid Snowflake account with appropriate licenses for Cortex AI functionality.
-
 ---
 
 **Digital SE** - Intelligent Snowflake Performance Analysis, Powered by AI 🚀
