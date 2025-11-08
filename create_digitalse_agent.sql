@@ -373,7 +373,7 @@ tools:
       type: "generic"
       name: "Gen2BenchmarkLookup"
       description: |
-        Looks up Gen2 warehouse performance improvement estimate based on query pattern.
+        Looks up Gen2 warehouse performance improvement estimate based on query pattern. It returns the percentage improvement from Gen1 to Gen2. A negative number indicates a performance improvement and a positive number indicates a performance degradation.
        
         Uses AI to match query description to benchmark data for:
         - Table scans
