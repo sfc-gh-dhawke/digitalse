@@ -138,54 +138,28 @@ Configures the DigitalSE Cortex Agent with:
 ```
 
 ## Usage Examples
-
+Log into Snowflake Intelligence select the DitialSE agent and ask questions like: 
 ### Analyze Query Performance
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Analyze query performance for query ID: 01234567-89ab-cdef-0123-456789abcdef'
-) AS agent_response;
-```
 
 ### Find Top Credit Consumers
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'What queries consumed the most credits last week?'
-) AS agent_response;
-```
 
 ### Get Clustering Key Recommendations
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Which tables would benefit from clustering keys?'
-) AS agent_response;
-```
+
 
 ### Learn About Snowflake Features
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'How do clustering keys work in Snowflake and when should I use them?'
-) AS agent_response;
-```
+
 
 ### Gen2 Warehouse Assessment
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Which of my queries would benefit most from Gen2 warehouses?'
-) AS agent_response;
-```
+
 
 ### Combined Analysis and Documentation
-```sql
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Explain search optimization and tell me which of my tables would benefit from it'
-) AS agent_response;
-```
+
 
 ## Agent Capabilities
 
