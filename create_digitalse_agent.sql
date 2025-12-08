@@ -616,34 +616,20 @@ SHOW AGENTS IN SCHEMA DIGITALSE.AGENTS;
 -- Example: How to use the agent
 /*
 -- Ask about Snowflake features using documentation search
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'How do clustering keys work in Snowflake and when should I use them?'
-) AS agent_response;
 
 -- Start a conversation with the agent about workload analysis
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'What queries consumed the most credits last week?'
-) AS agent_response;
 
 -- Analyze a specific query
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Analyze query performance for query ID: 01234567-89ab-cdef-0123-456789abcdef'
-) AS agent_response;
+
 
 -- Get Gen2 recommendations
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Which of my queries would benefit most from Gen2 warehouses?'
-) AS agent_response;
 
 -- Combined documentation and analysis
-SELECT SNOWFLAKE.CORTEX.COMPLETE_AGENT(
-    'DIGITALSE.AGENTS.DIGITALSE',
     'Explain search optimization and tell me which of my tables would benefit from it'
-) AS agent_response;
 */
 
 -- ============================================================================

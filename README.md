@@ -138,7 +138,7 @@ Configures the DigitalSE Cortex Agent with:
 ```
 
 ## Usage Examples
-Log into Snowflake Intelligence select the DitialSE agent and ask questions like: 
+Use Snowflake Intelligence to ask example questions
 ### Analyze Query Performance
     'Analyze query performance for query ID: 01234567-89ab-cdef-0123-456789abcdef'
 
@@ -147,7 +147,6 @@ Log into Snowflake Intelligence select the DitialSE agent and ask questions like
 
 ### Get Clustering Key Recommendations
     'Which tables would benefit from clustering keys?'
-
 
 ### Learn About Snowflake Features
     'How do clustering keys work in Snowflake and when should I use them?'
@@ -159,7 +158,6 @@ Log into Snowflake Intelligence select the DitialSE agent and ask questions like
 
 ### Combined Analysis and Documentation
     'Explain search optimization and tell me which of my tables would benefit from it'
-
 
 ## Agent Capabilities
 
@@ -326,6 +324,10 @@ The agent uses standardized performance benchmarks:
 - `setup_digitalse.sql`: Complete infrastructure setup (5-10 min execution)
 - `create_digitalse_agent.sql`: Agent creation and configuration (2-3 min execution)
 - `README.md`: This documentation file
+
+## License
+
+This project leverages Snowflake's built-in capabilities and requires a valid Snowflake account with appropriate licenses for Cortex AI functionality.
 
 ---
 
