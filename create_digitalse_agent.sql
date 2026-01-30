@@ -103,7 +103,7 @@ CREATE OR REPLACE AGENT DIGITALSE
   FROM SPECIFICATION
 $$
 models:
-  orchestration: claude-4-sonnet
+  orchestration: claude-sonnet-4-5
 
 orchestration:
   budget:
@@ -575,6 +575,9 @@ GRANT SELECT ON DIGITALSE.PUBLIC.ACCOUNT_USAGE_SEMANTIC_VIEW TO ROLE DIGITALSE_A
 
 -- Grant warehouse usage
 GRANT USAGE ON WAREHOUSE DIGITALSE_WH TO ROLE DIGITALSE_ADMIN_RL;
+
+-- Grant ownership of the DigitalSE agent
+GRANT OWNERSHIP ON AGENT SNOWFLAKE_INTELLIGENCE.AGENTS.DIGITALSE TO ROLE DIGITALSE_ADMIN_RL REVOKE CURRENT GRANTS;
 
 -- ============================================================================
 -- SETUP COMPLETE - ALL COMPONENTS READY
